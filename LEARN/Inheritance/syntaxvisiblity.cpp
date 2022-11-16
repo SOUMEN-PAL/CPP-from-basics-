@@ -37,6 +37,7 @@ int main()
 
     proagrammer skillf(3);
     cout << skillf.languagecode << endl;
+    cout<<skillf.id<<endl;
 
     return 0;
 }
