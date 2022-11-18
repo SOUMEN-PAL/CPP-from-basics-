@@ -16,7 +16,7 @@ public:
 };
 
 // derived class//
-//  7: note: candidate: constexpr employee::employee(employee&&) //
+
 
 class proagrammer : public employee
 {
