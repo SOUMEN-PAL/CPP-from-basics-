@@ -14,6 +14,7 @@ int main(){
     cout<<"len is "<<x<<endl;
 
     int*p=a;
+    
     for(int i=0;i<x;i++)                        //--------NEEDS FURTHER MODIFICATION---------//
     {
 
@@ -25,7 +26,8 @@ int main(){
     cout<<"size of a "<<sizeof(*(a))<<endl;
 
 
-
+    p=p+14;//matlab kuch bhi kuch bhi memory adress nikal gaya toh kuch bhi//
+    cout<<*p<<endl;
     
     return 0;
 }
