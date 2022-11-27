@@ -1,1 +1,1 @@
-complex(void);
+Base_class_pointer->var_base=10;
