@@ -4,7 +4,7 @@
 #include <iostream>
 
 using namespace std;
-
+//-- this is an abstract base class made only for making derived class with new properties for functionality ----//
 class CWH{
     protected:
         string title;
@@ -14,6 +14,7 @@ class CWH{
             title=s;
             rating=r;
         }
+    // its important to declare the pure virtual with a virtula keyword --//
         virtual void display()=0;//----pure virtual function is declared----//
         //----display function derived class me declare karna hi padega uske buina compiler dnaga karega-----//
 
