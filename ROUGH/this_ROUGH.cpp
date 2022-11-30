@@ -20,7 +20,7 @@ public:
         cout << "Age: " << age << endl;
     }
 
-    person display(person x)
+    person display(person &x)
     {
         // i wanted the return as an object so that i cant use the show() function on it //
         cout << "The obj1 is: " << endl;
