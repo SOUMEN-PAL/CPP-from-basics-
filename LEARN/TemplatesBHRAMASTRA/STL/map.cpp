@@ -9,7 +9,7 @@ int main(){
     marks["Harry"]=98;
     marks["Jack"]=59;
     marks["Rohan"]=2;
-    marks.insert({{"abc",12},{"alpha",134}}); //insertion of elements//
+    marks.insert({{"abc",12},{"apper",134}}); //insertion of elements//
     map<string,int> :: iterator it=marks.begin();
 
     for(it ; it!=marks.end() ; it++){
