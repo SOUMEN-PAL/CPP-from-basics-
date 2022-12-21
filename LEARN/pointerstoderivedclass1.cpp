@@ -17,7 +17,7 @@ class A{
 
 int main(){
     A *p, *q;
-    class A a;
+    A a;
     p=q=&a;
     p->show();
     q->show();

@@ -26,7 +26,7 @@ class sizeofarray{
         }
 
         int display(){
-            int y = (sizeof(arr)*size)/sizeof(T);
+            int y = (sizeof(arr))/sizeof(arr[0]);
             return y;
         }
 

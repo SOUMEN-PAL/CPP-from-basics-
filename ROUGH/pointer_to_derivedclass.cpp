@@ -6,6 +6,10 @@ class A
 private:
     int x;
     int y;
+public:
+    void dispay(){
+        cout<<x<<y<<endl;
+    }
 };
 
 int main()
@@ -23,6 +27,8 @@ int main()
     cout << *p << endl;
     p++;
     cout << *p << endl;
+
+    
 
     return 0;
 }
