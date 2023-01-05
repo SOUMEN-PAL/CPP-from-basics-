@@ -8,7 +8,7 @@ int main(){
     
     int*ptr=&a;
     cout<<*ptr<<endl;
-
+    
     int *arr= new int[3];
     for(int i=0;i<3;i++){
         arr[i]=pow(i,2);
