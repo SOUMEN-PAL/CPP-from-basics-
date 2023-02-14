@@ -15,6 +15,7 @@ int main(){
     for(it ; it!=marks.end() ; it++){
         cout<<(*it).first<<" "<<(*it).second<<"\n";
     }
+    cout<<marks["Harry"]<<endl;
 
     return 0;
 }

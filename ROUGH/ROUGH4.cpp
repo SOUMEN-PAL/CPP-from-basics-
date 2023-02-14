@@ -11,7 +11,7 @@ private:
     int intemprice[100];
     int counter;
 
-public:
+public: // we could also use constructer here //
     void initcounter(void) { counter = 0; } /*-----we didnt made counter in global scope because when new object will be used the counter value would
      be the previous value done by the object 1*/
     void setprice(void);
