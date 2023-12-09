@@ -34,6 +34,7 @@ int main(){
     Base_class obj_base;
     Base_class_pointer=&obj_derived;
     Base_class_pointer->var_base=10;
+    
     Base_class_pointer->display();
     obj_derived.display();
  

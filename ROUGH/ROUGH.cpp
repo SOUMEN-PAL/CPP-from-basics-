@@ -1,14 +1,18 @@
 #include <iostream>
 using namespace std;
 
+int helper(int x ,int y , int c , int c1 , string s){
+    if(s)
+}
+
+
+
+
 int main(){
-    
-    int a=2;
-    int &y=a;
-    cout<<a<<endl;
-    cout<<y<<endl;
-    cout<<"the memory address of a "<<&a<<endl;
-    cout<<"the memory address of y "<<&y<<endl;
+    string s = "abppprrr";
+    int x = 3;
+    int y = 5;
+    cout<<solve(x,y,s);
     
     return 0;
 }

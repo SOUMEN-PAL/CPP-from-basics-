@@ -20,7 +20,10 @@ private:
 
 public:
     friend int calculator::realcomplex(complex o1, complex o2);
-    friend int calculator::compcomplex(complex o1, complex o2);
+    friend int calculator::compcomplex(complex o1, complex o2); // making the members of the class friend of the other class //
+
+    // or we can just make the whole class the friend of the other 'class friend calculator;' ///
+
     void getnum(int n1, int n2)
     {
         a = n1;
